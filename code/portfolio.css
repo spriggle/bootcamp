@@ -1,0 +1,164 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: #0000FF;
+  }
+
+  header nav {
+    margin: 8px 0;
+  }
+
+  header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  header a {
+    text-decoration: none;
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    margin: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header nav ul li a:hover {
+    background: #008000;
+    color: #0000FF;
+    border-radius: 20px;
+    text-shadow: none;
+  }
+
+img {
+    position: sticky;
+    border-radius: 10%;
+    max-width: 300px;
+    max-height: 300px;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);    
+}
+
+.intro {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .flex-row {
+    display:flex;
+  }
+
+
+  .some-class {
+    text-shadow: 5px 10px 15px black;
+    box-shadow: 5px 10px 15px black;
+  }
+/* default state */
+button {
+    background: white;
+  }
+  
+  /* mouse is hovering over button */
+  button:hover {
+    background: red;
+  }
+  
+  /* button is in focus because it was the most recently clicked element on the page */
+  button:focus {
+    background: green;
+  }
+  
+  /* user is actively pressing the cursor down on the button */
+  button:active {
+    background: blue;
+  }
+
+
+
+
+
+
+
+
+  footer {
+    background: #008000;
+    width: 100%;
+    font-weight: bold;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (max-width: 980px) {
+    header {
+        position: relative;
+    }
+    header h1 a {
+      color: tomato;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    header h1 {
+      font-size: 80px;
+    }
+  }
+  
+  @media screen and (max-width: 575px) {
+    header h1 {
+      font-size: 100px;
+    }
+  }
